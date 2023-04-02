@@ -1,0 +1,77 @@
+@import url(../css/common/footer.css);
+body{
+    width: 1920px;
+    height: 1200px;
+    background: rgb(0, 142, 140);
+    
+}
+.main_box{
+    width: 2000px;
+    margin: 0 auto;
+
+}
+#box__id{
+    
+    width: 1200px;
+    height: 800px;
+    border: solid 7px #10fb03;
+    margin: -519px 0 0 320px;
+}
+#id4{
+    font-size: 45px;
+    margin: -51px 0 0 0;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: solid 5px blue;
+    border-radius: 100px;
+    display: block;
+}
+.btn1{
+    width: 237px;
+    height: 63px;
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    background: #0220ff;
+    border-radius: 0 20px 0 20px ;
+    border: solid 3px #10fb03;
+    color: #FDFEFF;
+    margin: 0 0 0 0;
+
+}
+.btn1:hover{
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    background: #0014ace6;
+    color: #d2d2d2;
+    border: solid 3px #0ffb03f6;
+    border-radius: 0 20px 0 20px ;
+}
+.btn1:active{
+    font-family: 'Teko', sans-serif;
+    color: #767676;
+    font-size: 45px;
+    font-weight: 500;
+    background: #10fb03;
+    border: solid 3px #0220ff;
+    border-radius: 0 20px 0 20px ;
+}
+.p__time{
+    font-weight: 400;
+    font-size: 45px;
+    color: #FDFEFF;
+    font-family: 'Oswald', sans-serif;
+    margin: 369px 0 20px 0;
+
+}
+.p__check{
+    font-weight: 400;
+    color: #FDFEFF;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 0 20px 0;
+}
