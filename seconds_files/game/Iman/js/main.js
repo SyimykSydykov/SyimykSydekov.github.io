@@ -1,4 +1,28 @@
-let curr = 0;
+let name2 = 0
+function ibrofun(){
+    let name1 = document.getElementById("id1")
+    name1.className = "circle"
+    function printNumber(from, to){
+        let current = from;
+    
+    setTimeout(function go(){
+        document.getElementById("id5").innerHTML=current
+        if(current > to){
+            setTimeout(go, 1000)
+        }
+        current--;
+        if(current < 0){
+            document.getElementById("id1").style.display="none";
+            alert("ваш счёт " + name2 + " за 60 секунд");
+        }
+        
+            
+        
+    },1000);
+   
+}    printNumber(60, 0);
+
+}
 let arr1 =[
     1,
     2,
@@ -26,9 +50,8 @@ let name6 = [
     "tan",
 ]
 function ibrofun2(){
-        curr++
-        document.getElementById("id4").innerHTML=curr
-        
+        name2++
+        let num=document.getElementById("id4").innerHTML=name2
         let name1 =Math.floor(Math.random()*680) 
         let name4 =Math.floor(Math.random()*1100) 
         
@@ -54,6 +77,9 @@ function ibrofun2(){
             document.getElementById("id1").style.height=name11
 
         }
+       
+     
+        
         
 
           
@@ -62,25 +88,3 @@ function ibrofun2(){
         
 
     }
-
-function ibrofun(){
-    let name1 = document.getElementById("id1")
-    name1.className = "circle"
-    function printNumber(from, to){
-        let current = from;
-    
-    setTimeout(function go(){
-        document.getElementById("id5").innerHTML=current
-        if(current > to){
-            setTimeout(go, 1000)
-        }
-        current--;
-        if(current < 0){
-            document.getElementById("id1").style.display="none"
-            alert("Ваш счет: "+curr)
-        }
-    },1000);
-   
-}    printNumber(60, 0);
-
-}

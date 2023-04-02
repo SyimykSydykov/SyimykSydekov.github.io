@@ -1,0 +1,81 @@
+.kub{
+    width: 2400px;
+    background-color: blueviolet;
+}
+.kub3{
+    width: 2400px;
+    margin: 0 auto;
+}
+
+.block{
+    width: 1300px;
+    height: 800px;
+    background: none;
+    border:solid 5px black;
+    margin: -576px 0px 0px 340px;
+    background-color: bisque;
+}
+.block2{
+    width: 100px;
+    height: 100px;
+}
+.Akto{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: chartreuse;
+    display: block;
+}
+.text__id{
+    font-size: 70px;
+    color: deeppink;
+}
+.main__text{
+    font-size: 80px;
+}
+.main__text2{
+    font-size: 80px;
+}
+.text__id2{
+    font-size: 40px;
+    color: orange;
+}
+.main__btn1{
+    padding: 10px 20px;
+    width: 300px;
+    height: 150px;
+    color: greenyellow;
+    background-color: red;
+    font-size: 75px;
+    font-weight: 10;
+    border-radius: 50px 0 50px 0;
+}
+.main__btn1:hover{
+    color: dodgerblue;
+    font-size: 75px;
+    background-color: yellow;
+    font-weight: 100;
+    border-radius: 50px 0 50px 0;
+}
+.main__btn1:active{
+    color: rgb(47, 245, 255);
+    font-size: 75px;
+    background-color: darkorange;
+    font-weight: 100;
+    border-radius: 50px 0 50px 0;
+}
+.footer__img{
+    width: 75px;
+    height: 75px;
+    margin: 5px 20px 0 10px ;
+}
+.footer__text{
+    font-size: 70px;
+    margin: 0 33px 37px 342px;
+}
+.block11{
+    width: 1700px;
+    height: 150px;
+    display: flex;
+    
+}

@@ -1,5 +1,21 @@
+.footer{
+    background: #4E4E50 ;
+    height: 125px;
+    margin: 485px 0 0 0;
+    
+}
+.footer_block{
+    width: 381px;
+    margin: 0 auto;
+    padding: 28px  0 0 0;
+}
+.footer_block_text{
+    font-size: 25px;
+    margin: 0 0 7px 0;
+}
 .footer_text{
     font-family: 'Teko', sans-serif;
     color: #565d69;
     font-size: 15px;
+    margin: -573px  0 0 0;
 }

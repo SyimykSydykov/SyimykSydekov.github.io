@@ -2,8 +2,12 @@
 body{
     width: 1920px;
     height: 1200px;
-    background: rgb(0, 142, 140);
+    background: #272727 ;
+    margin: 0 auto;
     
+}
+.body_block{
+    margin: 0 0 0 144px;
 }
 .main_box{
     width: 2000px;
@@ -14,8 +18,8 @@ body{
     
     width: 1200px;
     height: 800px;
-    border: solid 7px #10fb03;
-    margin: -519px 0 0 320px;
+    border: solid 7px #C3073F;
+    margin: -734px 0 0 320px;
 }
 #id4{
     font-size: 45px;
@@ -30,42 +34,50 @@ body{
     display: block;
 }
 .btn1{
-    width: 237px;
-    height: 63px;
+    width: 286px;
+    height: 87px;
     font-family: 'Teko', sans-serif;
     font-size: 45px;
     font-weight: 500;
-    background: #0220ff;
+    background: none;
     border-radius: 0 20px 0 20px ;
-    border: solid 3px #10fb03;
+    border: solid 5px #C3073F ;
     color: #FDFEFF;
-    margin: 0 0 0 0;
-
+    margin: 479px  0 0 0;
+    padding: 0 0 0 0;
 }
 .btn1:hover{
+    width: 286px;
+    height: 87px;
     font-family: 'Teko', sans-serif;
     font-size: 45px;
     font-weight: 500;
-    background: #0014ace6;
-    color: #d2d2d2;
-    border: solid 3px #0ffb03f6;
+    background: none;
     border-radius: 0 20px 0 20px ;
+    border: solid 5px #6a0423 ;
+    color: #c0c0c0;
+    margin: 479px  0 0 0;
+    padding: 0 0 0;
 }
 .btn1:active{
+    width: 286px;
+    height: 87px;
     font-family: 'Teko', sans-serif;
-    color: #767676;
     font-size: 45px;
     font-weight: 500;
-    background: #10fb03;
-    border: solid 3px #0220ff;
+    background: none;
     border-radius: 0 20px 0 20px ;
+    border: solid 5px #fff ;
+    color: #C3073F;
+    margin: 479px  0 0 0;
+    padding: 0 0 0;
 }
 .p__time{
     font-weight: 400;
     font-size: 45px;
     color: #FDFEFF;
     font-family: 'Oswald', sans-serif;
-    margin: 369px 0 20px 0;
+    margin: 32px  0 20px 0;
 
 }
 .p__check{
@@ -74,4 +86,12 @@ body{
     font-size: 45px;
     font-family: 'Oswald', sans-serif;
     margin: 0 0 20px 0;
+}
+.main_text{
+    font-family: 'Teko', sans-serif;
+    color: #C3073F;
+    font-size: 20px;
+    margin: -573px  0 0 0;
+    width: 250px;
+
 }
